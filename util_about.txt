@@ -2,7 +2,7 @@
 ======================================================================
 ======================================================================
  Welcome to the NW Python Debugging Information Utility!
- Date and Time: 2023-08-25 at 03:28 PM
+ Date and Time: 2023-08-25 at 03:54 PM
  Operating System: nt Windows 10
  System Architecture: 64bit
  Number of CPUs: 20
@@ -15,11 +15,11 @@
  Path to Interpreter:         C:\Users\garre\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
  Path to virtual environment: C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0
  Current Working Directory:   C:\Users\garre\.venv\Mod_1\streaming-01-getting-started
- Path to source directory:    c:\Users\garre\.venv\Mod_1\streaming-01-getting-started
- Path to script file:         c:\Users\garre\.venv\Mod_1\streaming-01-getting-started\util_about.py
+ Path to source directory:    C:\Users\garre\.venv\Mod_1\streaming-01-getting-started
+ Path to script file:         C:\Users\garre\.venv\Mod_1\streaming-01-getting-started\util_about.py
  User's Home Directory:       C:\Users\garre
  Terminal Environment:        VS Code
- Terminal Type:               cmd.exe
+ Terminal Type:               bash.exe
  Preferred command:           python
  Is python available in PATH:   True
  Is git available in PATH:      True 
