@@ -34,11 +34,22 @@ OUTPUT_FILE_NAME = "batchfile_3_farenheit.csv"
 
 
 def convert_k_to_f(temp_k):
-    return
-
+    return (temp_k - 273.15) * 9/5 + 32  # Conversion formula
 
 def process_rows(input_file_name, output_file_name):
-    return
+    with open(input_file_name, mode="r") as input_file, open(output_file_name, mode="w", newline="") as output_file:
+        csv_reader = csv.reader(input_file)
+        csv_writer = csv.writer(output_file)
+
+        header = next(csv_reader)
+        header.append("Fahrenheit")  # Add a new header column
+        csv_writer.writerow(header)
+
+        for row in csv_reader:
+            temp_k = float(row[0])
+            temp_f = convert_k_to_f(temp_k)
+            row.append(temp_f)
+            csv_writer.writerow(row)
 
 
 # ---------------------------------------------------------------------------
